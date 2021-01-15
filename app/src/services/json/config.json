@@ -1,0 +1,1979 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "productName": "AUTO",
+      "category": "DETAIL",
+      "title": "ข้อมูลรถ",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "typeRegister",
+          "lable": "ประเภทการจดทะเบียน",
+          "dataField": "typeRegister",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "required": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "test",
+              "text": "test"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "carType",
+          "lable": "ประเภทรถ",
+          "type": "string",
+          "elementType": "dropdown",
+          "dataField": "carType",
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "width": 0,
+          "sm": 3,
+          "xs": 3,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 4,
+          "name": "carBrand",
+          "lable": "ยี่ห้อ",
+          "type": "string",
+          "elementType": "dropdown",
+          "dataField": "carBrand",
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "width": 0,
+          "sm": 3,
+          "xs": 3,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 5,
+          "name": "carModel",
+          "lable": "รุ่น",
+          "type": "string",
+          "elementType": "dropdown",
+          "dataField": "carModel",
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "width": 0,
+          "sm": 6,
+          "xs": 6,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 6,
+          "name": "subCarModel",
+          "lable": "รุ่นย่อย",
+          "type": "string",
+          "elementType": "dropdown",
+          "dataField": "subCarModel",
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "width": 0,
+          "sm": 6,
+          "xs": 6,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 7,
+          "name": "carYear",
+          "lable": "วันที่จดทะเบียนรถ (พ.ศ.)",
+          "type": "string",
+          "elementType": "text",
+          "dataField": "carYear",
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "width": 0,
+          "sm": 3,
+          "xs": 3,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 8,
+          "name": "carNumber",
+          "lable": "เลขทะเบียน",
+          "type": "string",
+          "elementType": "text",
+          "dataField": "carNumber",
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "width": 0,
+          "sm": 3,
+          "xs": 3,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 9,
+          "name": "provinceRegister",
+          "lable": "จังหวัดที่จดทะเบียน",
+          "type": "string",
+          "elementType": "dropdown",
+          "dataField": "provinceRegister",
+          "required": true,
+          "readOnly": false,
+          "dropdownApi": "",
+          "dropdownData": [],
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "width": 0
+        },
+        {
+          "order": 10,
+          "name": "carBodyNumber",
+          "lable": "เลขตัวถัง",
+          "type": "number",
+          "elementType": "text",
+          "dataField": "carBodyNumber",
+          "required": false,
+          "readOnly": false,
+          "dropdownApi": "",
+          "dropdownData": [],
+          "sm": 3,
+          "xs": 3,
+          "fullWidth": true,
+          "width": 0
+        },
+        {
+          "order": 11,
+          "name": "carEngineNumber",
+          "lable": "เลขเครื่องยนต์",
+          "type": "string",
+          "elementType": "text",
+          "dataField": "carEngineNumber",
+          "required": false,
+          "readOnly": false,
+          "dropdownApi": "",
+          "dropdownData": [],
+          "sm": 3,
+          "xs": 3,
+          "fullWidth": true,
+          "width": 0
+        },
+        {
+          "order": 12,
+          "name": "carSize",
+          "lable": "ขนาดเครื่องยนต์",
+          "type": "number",
+          "elementType": "text",
+          "dataField": "carSize",
+          "required": false,
+          "readOnly": false,
+          "dropdownApi": "",
+          "dropdownData": [],
+          "sm": 3,
+          "xs": 3,
+          "fullWidth": true,
+          "width": 0
+        },
+        {
+          "order": 13,
+          "type": "number",
+          "elementType": "text",
+          "lable": "น้ำหนักรวม (Kg)",
+          "name": "totalWeight",
+          "dataField": "totalWeight",
+          "sm": 3,
+          "xs": 3,
+          "fullWidth": true
+        },
+        {
+          "order": 14,
+          "type": "string",
+          "elementType": "text",
+          "lable": "มูลค่าอุปกรณ์เสริม (บาท)",
+          "name": "part",
+          "dataField": "part",
+          "sm": 3,
+          "xs": 3,
+          "fullWidth": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "productName": "AUTO",
+      "category": "File",
+      "title": "ข้อมูลไฟล์แนบ",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "uploadFile",
+          "lable": "สำเนาบัตรประชาชน",
+          "name": "x1",
+          "dataField": "x1",
+          "sm": 12,
+          "xs": 12,
+          "fullWidth": true
+        },
+        {
+          "order": 2,
+          "type": "string",
+          "elementType": "uploadFile",
+          "name": "x2",
+          "lable": "สำเนาเล่มทะเบียน",
+          "dataField": "x2",
+          "fullWidth": true,
+          "sm": 12,
+          "xs": 12
+        },
+        {
+          "order": 3,
+          "type": "string",
+          "elementType": "uploadFile",
+          "name": "x3",
+          "lable": "รูปหน้ารถ",
+          "dataField": "x3",
+          "sm": 12,
+          "xs": 12,
+          "fullWidth": true
+        },
+        {
+          "order": 4,
+          "type": "string",
+          "elementType": "uploadFile",
+          "lable": "รูปหลังรถ",
+          "name": "x4",
+          "dataField": "x4",
+          "sm": 12,
+          "xs": 12,
+          "fullWidth": true
+        },
+        {
+          "order": 5,
+          "type": "string",
+          "elementType": "uploadFile",
+          "name": "x5",
+          "lable": "รูปด้านขวา",
+          "dataField": "x5",
+          "sm": 12,
+          "xs": 12,
+          "fullWidth": true
+        },
+        {
+          "order": 6,
+          "type": "string",
+          "elementType": "uploadFile",
+          "name": "x6",
+          "lable": "รูปด้านซ้าย",
+          "dataField": "x6",
+          "fullWidth": true,
+          "sm": 12,
+          "xs": 12
+        },
+        {
+          "order": 7,
+          "type": "string",
+          "elementType": "uploadFile",
+          "lable": "เอกสารอื่นๆ 1",
+          "name": "x7",
+          "dataField": "x7",
+          "fullWidth": true,
+          "sm": 12,
+          "xs": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "productName": "CTP",
+      "category": "CTP",
+      "title": "CTP",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "type",
+          "lable": "ประเภท",
+          "dataField": "type",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "width": ""
+        },
+        {
+          "order": 2,
+          "type": "string",
+          "elementType": "dropdown",
+          "lable": "ประเภทย่อย",
+          "name": "subType",
+          "dataField": "subType",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true
+        },
+        {
+          "order": 3,
+          "type": "string",
+          "elementType": "text",
+          "lable": "เลขทะเบียน",
+          "name": "registerNumber",
+          "dataField": "registerNumber",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true
+        },
+        {
+          "order": 4,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "province",
+          "lable": "จังหวัดที่จดทะเบียน",
+          "dataField": "province",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "required": true
+        },
+        {
+          "order": 5,
+          "type": "string",
+          "elementType": "dropdown",
+          "lable": "ยี่ห้อรถ",
+          "name": "carBrand",
+          "dataField": "carBrand",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "required": true
+        },
+        {
+          "order": 6,
+          "type": "string",
+          "elementType": "dropdown",
+          "lable": "หมายเลขคัสซี (เลขตัวถัง)",
+          "name": "bodyNumber",
+          "dataField": "bodyNumber",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "productName": "CANCER",
+      "category": "CANCER",
+      "title": "",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "text",
+          "lable": "ชื่อ",
+          "name": "name",
+          "dataField": "name",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "required": true
+        },
+        {
+          "order": 2,
+          "type": "string",
+          "elementType": "text",
+          "lable": "วันเกิด",
+          "name": "date",
+          "dataField": "date",
+          "sm": 6,
+          "xs": 6,
+          "fullWidth": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "productName": "PA",
+      "category": "ผู้เอาประกันคนที่ 1",
+      "title": "ข้อมูลผู้เอาประกันคนที่ 1 *",
+      "productkey": [
+        "PAF01",
+        "PAF02"
+      ],
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "titlename",
+          "lable": "คำนำหน้าชื่อ",
+          "dataField": "titlename",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "นาย",
+              "text": "นาย"
+            },
+            {
+              "value": "นางสาว",
+              "text": "นางสาว"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "type": "",
+          "elementType": null,
+          "name": "",
+          "lable": "",
+          "dataField": "",
+          "sm": 6,
+          "xs": 12,
+          "required": false,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 3,
+          "type": "string",
+          "elementType": "text",
+          "name": "name",
+          "lable": "ชื่อ",
+          "dataField": "name",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 4,
+          "type": "string",
+          "elementType": "text",
+          "name": "lastname",
+          "lable": "นามสกุล",
+          "dataField": "lastname",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 5,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "day",
+          "lable": "วัน",
+          "dataField": "day",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "1",
+              "text": "1"
+            },
+            {
+              "value": "2",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "month",
+          "lable": "เดือน",
+          "dataField": "month",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "มค",
+              "text": "มค"
+            },
+            {
+              "value": "กพ",
+              "text": "กพ"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "year",
+          "lable": "ปี",
+          "dataField": "year",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "2020",
+              "text": "2020"
+            },
+            {
+              "value": "2021",
+              "text": "2021"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "type": "string",
+          "elementType": "text",
+          "name": "id",
+          "lable": "รหัสบัตรประชาชน",
+          "dataField": "id",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 9,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "career",
+          "lable": "อาชีพ",
+          "dataField": "career",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "โปรแกรมเมอร์",
+              "text": "โปรแกรมเมอร์"
+            },
+            {
+              "value": "กรรมกรโปรแกรมเมอร์",
+              "text": "กรรมกรโปรแกรมเมอร์"
+            }
+          ]
+        },
+        {
+          "order": 10,
+          "type": "string",
+          "elementType": "text",
+          "name": "phone",
+          "lable": "เบอร์โทรศัพท์",
+          "dataField": "phone",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        }
+      ],
+      "node": {
+        "title": "ผู้รับผลประโยชน์ (สูงสุด 3 คน)",
+        "fields": [
+          {
+            "order": 1,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 1",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 2,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 4,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 5,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 2",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 6,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 7,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 8,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 9,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 3",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 10,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 11,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 12,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "productName": "PA",
+      "category": "ผู้เอาประกันคนที่ 2 : คู่สมรส",
+      "title": "ข้อมูลผู้เอาประกันคนที่ 2 : คู่สมรส *",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "name",
+          "lable": "คำนำหน้าชื่อ",
+          "dataField": "titlename",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "นาย",
+              "text": "นาย"
+            },
+            {
+              "value": "นางสาว",
+              "text": "นางสาว"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "type": "",
+          "elementType": null,
+          "name": "",
+          "lable": "",
+          "dataField": "",
+          "sm": 6,
+          "xs": 12,
+          "required": false,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 3,
+          "type": "string",
+          "elementType": "text",
+          "name": "name",
+          "lable": "ชื่อ",
+          "dataField": "name",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 4,
+          "type": "string",
+          "elementType": "text",
+          "name": "lastname",
+          "lable": "นามสกุล",
+          "dataField": "lastname",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 5,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "day",
+          "lable": "วัน",
+          "dataField": "day",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "1",
+              "text": "1"
+            },
+            {
+              "value": "2",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "month",
+          "lable": "เดือน",
+          "dataField": "month",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "มค",
+              "text": "มค"
+            },
+            {
+              "value": "กพ",
+              "text": "กพ"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "year",
+          "lable": "ปี",
+          "dataField": "year",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "2020",
+              "text": "2020"
+            },
+            {
+              "value": "2021",
+              "text": "2021"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "type": "string",
+          "elementType": "text",
+          "name": "id",
+          "lable": "รหัสบัตรประชาชน",
+          "dataField": "id",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 9,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "career",
+          "lable": "อาชีพ",
+          "dataField": "career",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "โปรแกรมเมอร์",
+              "text": "โปรแกรมเมอร์"
+            },
+            {
+              "value": "กรรมกรโปรแกรมเมอร์",
+              "text": "กรรมกรโปรแกรมเมอร์"
+            }
+          ]
+        }
+      ],
+      "node": {
+        "title": "ผู้รับผลประโยชน์ (สูงสุด 3 คน)",
+        "fields": [
+          {
+            "order": 1,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 1",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 2,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 4,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 5,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 2",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 6,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 7,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 8,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 9,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 3",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 10,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 11,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 12,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "productName": "PA",
+      "category": "ผู้เอาประกันคนที่ 3 : บุตร 1",
+      "title": "ข้อมูลผู้เอาประกันคนที่ 3 : บุตร 1 *",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "name",
+          "lable": "คำนำหน้าชื่อ",
+          "dataField": "titlename",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "นาย",
+              "text": "นาย"
+            },
+            {
+              "value": "นางสาว",
+              "text": "นางสาว"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "type": "",
+          "elementType": null,
+          "name": "",
+          "lable": "",
+          "dataField": "",
+          "sm": 6,
+          "xs": 12,
+          "required": false,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 3,
+          "type": "string",
+          "elementType": "text",
+          "name": "name",
+          "lable": "ชื่อ",
+          "dataField": "name",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 4,
+          "type": "string",
+          "elementType": "text",
+          "name": "lastname",
+          "lable": "นามสกุล",
+          "dataField": "lastname",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 5,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "day",
+          "lable": "วัน",
+          "dataField": "day",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "1",
+              "text": "1"
+            },
+            {
+              "value": "2",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "month",
+          "lable": "เดือน",
+          "dataField": "month",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "มค",
+              "text": "มค"
+            },
+            {
+              "value": "กพ",
+              "text": "กพ"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "year",
+          "lable": "ปี",
+          "dataField": "year",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "2020",
+              "text": "2020"
+            },
+            {
+              "value": "2021",
+              "text": "2021"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "type": "string",
+          "elementType": "text",
+          "name": "id",
+          "lable": "รหัสบัตรประชาชน",
+          "dataField": "id",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        }
+      ],
+      "node": {
+        "title": "ผู้รับผลประโยชน์ (สูงสุด 3 คน)",
+        "fields": [
+          {
+            "order": 1,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 1",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 2,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 4,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 5,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 2",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 6,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 7,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 8,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 9,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 3",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 10,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 11,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 12,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "productName": "PA",
+      "category": "ผู้เอาประกันคนที่ 4 : บุตร 2",
+      "title": "ข้อมูลผู้เอาประกันคนที่ 4 : บุตร 2 *",
+      "fields": [
+        {
+          "order": 1,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "name",
+          "lable": "คำนำหน้าชื่อ",
+          "dataField": "titlename",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "นาย",
+              "text": "นาย"
+            },
+            {
+              "value": "นางสาว",
+              "text": "นางสาว"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "type": "",
+          "elementType": null,
+          "name": "",
+          "lable": "",
+          "dataField": "",
+          "sm": 6,
+          "xs": 12,
+          "required": false,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 3,
+          "type": "string",
+          "elementType": "text",
+          "name": "name",
+          "lable": "ชื่อ",
+          "dataField": "name",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 4,
+          "type": "string",
+          "elementType": "text",
+          "name": "lastname",
+          "lable": "นามสกุล",
+          "dataField": "lastname",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        },
+        {
+          "order": 5,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "day",
+          "lable": "วัน",
+          "dataField": "day",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "1",
+              "text": "1"
+            },
+            {
+              "value": "2",
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "month",
+          "lable": "เดือน",
+          "dataField": "month",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "มค",
+              "text": "มค"
+            },
+            {
+              "value": "กพ",
+              "text": "กพ"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "type": "string",
+          "elementType": "dropdown",
+          "name": "year",
+          "lable": "ปี",
+          "dataField": "year",
+          "sm": 2,
+          "xs": 4,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": [
+            {
+              "value": "2020",
+              "text": "2020"
+            },
+            {
+              "value": "2021",
+              "text": "2021"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "type": "string",
+          "elementType": "text",
+          "name": "id",
+          "lable": "รหัสบัตรประชาชน",
+          "dataField": "id",
+          "sm": 6,
+          "xs": 12,
+          "required": true,
+          "readOnly": false,
+          "fullWidth": true,
+          "dropdownApi": "",
+          "dropdownData": []
+        }
+      ],
+      "node": {
+        "title": "ผู้รับผลประโยชน์ (สูงสุด 3 คน)",
+        "fields": [
+          {
+            "order": 1,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 1",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 2,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 4,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 5,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 2",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 6,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 7,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 8,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 9,
+            "type": "string",
+            "elementType": "typography",
+            "name": "",
+            "lable": "ลำดับที่ 3",
+            "dataField": "",
+            "sm": 2,
+            "xs": 6,
+            "required": false,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 10,
+            "type": "string",
+            "elementType": "dropdown",
+            "name": "status",
+            "lable": "ความสัมพันธ์",
+            "dataField": "status",
+            "sm": 4,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": [
+              {
+                "value": "มารดา",
+                "text": "มารดา"
+              },
+              {
+                "value": "บิดา",
+                "text": "บิดา"
+              }
+            ]
+          },
+          {
+            "order": 11,
+            "type": "string",
+            "elementType": "text",
+            "name": "name",
+            "lable": "ชื่อ",
+            "dataField": "name",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          },
+          {
+            "order": 12,
+            "type": "string",
+            "elementType": "text",
+            "name": "lastname",
+            "lable": "นามสกุล",
+            "dataField": "lastname",
+            "sm": 3,
+            "xs": 6,
+            "required": true,
+            "readOnly": false,
+            "fullWidth": true,
+            "dropdownApi": "",
+            "dropdownData": []
+          }
+        ]
+      }
+    }
+  ]
+}

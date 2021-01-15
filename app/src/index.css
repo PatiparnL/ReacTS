@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/ngerntidlorloop-regular-webfont.woff2) format('woff');
+}
+
+@font-face {
+  font-family: 'MyFont';
+  font-weight: 900;
+  src: local('MyFont'), url(./fonts/ngerntidlorloop-bold-webfont.woff2) format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'MyFont' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}

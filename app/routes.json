@@ -1,0 +1,6 @@
+{
+  "/INSTaskTelesales/v1/taskproduct": "/TaskProduct",
+  "/INSTaskTelesales/v1/producthierarchy/:product": "/TaskHierarchy",
+  "/INSTaskTelesales/v1/taskinsurerdetail": "/TaskInsurerDetail",
+  "/Payment/v1/paytype": "/TaskPayment"
+}
